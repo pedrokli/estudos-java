@@ -21,7 +21,7 @@ public class TestaOrdenacao {
 		}
 	}
 	
-	
+	//Quadrático n*n
 	private static void insertionSort(Produto[] produtos, int quantidadeDeElementos) {
 		for(int atual = 1; atual < quantidadeDeElementos; atual++) {
 			System.out.println("Estou na casinha " + atual);
@@ -50,7 +50,7 @@ public class TestaOrdenacao {
 		produtos[segundo] = primeiroProduto;
 	}
 
-
+    //Quadrático n*n
 	private static void selectionSort(Produto[] produtos, int quantidadeDeElementos) {
 		for(int atual = 0; atual < quantidadeDeElementos - 1; atual++) {
 			
