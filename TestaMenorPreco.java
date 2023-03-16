@@ -8,11 +8,11 @@ public class TestaMenorPreco {
 			new Produto("Fusca", 17000)
 		};
 		
-		int maisBarato = buscaMenor(produtos, 0, 4);
-		
+		int maisBarato = buscaMenor(produtos, 0, produtos.length - 1);
+		int maisCaro = buscaMaior(produtos, 0, produtos.length - 1);
 		System.out.println(maisBarato);
 		System.out.println("O carro " + produtos[maisBarato].getNome() + " é o mais barato e custa " + produtos[maisBarato].getPreco());
-
+        System.out.println("O carro " + produtos[maisCaro].getNome() + " é o mais caro e custa " + produtos[maisCaro].getPreco());
 		
 	}
 
@@ -24,5 +24,14 @@ public class TestaMenorPreco {
 			}
 		}
 		return maisBarato;
+	}
+    private static int buscaMaior(Produto[] produtos, int inicio, int termino) {
+		int maisCaro = inicio;
+		for(int atual = inicio; atual <= termino; atual++) {
+			if(produtos[atual].getPreco() > produtos[maisCaro].getPreco()) {
+				maisCaro = atual;
+			}
+		}
+		return maisCaro;
 	}
 }

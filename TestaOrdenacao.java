@@ -9,7 +9,7 @@ public class TestaOrdenacao {
 		};
 		
 		selectionSort(produtos, produtos.length);
-		//novoSort(produtos, produtos.length);
+	    insertionSort(produtos, produtos.length);
 
 		
 	}
@@ -22,7 +22,7 @@ public class TestaOrdenacao {
 	}
 	
 	
-	private static void novoSort(Produto[] produtos, int quantidadeDeElementos) {
+	private static void insertionSort(Produto[] produtos, int quantidadeDeElementos) {
 		for(int atual = 1; atual < quantidadeDeElementos; atual++) {
 			System.out.println("Estou na casinha " + atual);
 
