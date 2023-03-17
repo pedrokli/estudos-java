@@ -1,6 +1,7 @@
-                        Bem vindo ao meu repositório estudos-java!
+                                            Bem vindo ao meu repositório estudos-java!
                         
                         
 
+Como o próprio nome informa, o conteúdo desse repositório são exercícios ou protótipos desenvolvidos em Java!
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" width="40" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" width="80" height="80"/>
