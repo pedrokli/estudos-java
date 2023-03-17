@@ -1,4 +1,4 @@
-                                            Bem vindo ao meu repositório estudos-java! <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" width="80" height="80"/>
+Bem vindo ao meu repositório estudos-java! <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" width="80" height="80"/>
                         
                         
 
