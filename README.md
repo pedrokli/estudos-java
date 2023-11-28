@@ -2,7 +2,7 @@
                         
    ---                     
 
-* Como o próprio nome informa, desse repositório possui exercícios e protótipos desenvolvidos **por mim** em linguagem Java!
+* Como o próprio nome informa, esse repositório possui exercícios e protótipos desenvolvidos **por mim** em linguagem Java!
 
 
 #
